@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{09BD3E66-3CA7-4FC8-912E-CA96CA0ECFC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{752A69E4-7769-4FC9-B631-B883982EC7C1}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KPITV", "src\KPITV\KPITV.xproj", "{DF928670-CD2F-4F82-BF52-D3A685DC555C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF928670-CD2F-4F82-BF52-D3A685DC555C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF928670-CD2F-4F82-BF52-D3A685DC555C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF928670-CD2F-4F82-BF52-D3A685DC555C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF928670-CD2F-4F82-BF52-D3A685DC555C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF928670-CD2F-4F82-BF52-D3A685DC555C} = {09BD3E66-3CA7-4FC8-912E-CA96CA0ECFC3}
+	EndGlobalSection
+EndGlobal
